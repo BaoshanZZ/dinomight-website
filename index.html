@@ -145,8 +145,7 @@
   .footer-text { font-size: 0.8rem; color: var(--text-muted); }
   .dino-print { position: relative; margin: 0 auto; padding: 60px 0; text-align: center; }
   .dino-divider { width: 100px; height: 2px; background: linear-gradient(90deg, transparent, var(--accent-green), transparent); margin: 0 auto; }
-  .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
-  .reveal.visible { opacity: 1; transform: translateY(0); }
+
   @media (max-width: 1024px) {
     .services-grid { grid-template-columns: 1fr; }
     .service-card.featured { grid-column: span 1; }
@@ -200,9 +199,9 @@
 </section>
 
 <section class="mvv" id="about">
-  <div class="section-tag reveal">Who We Are</div>
-  <div class="section-title reveal" style="margin-bottom: 48px;">Built on rigor.<br>Driven by evolution.</div>
-  <div class="mvv-grid reveal">
+  <div class="section-tag">Who We Are</div>
+  <div class="section-title" style="margin-bottom: 48px;">Built on rigor.<br>Driven by evolution.</div>
+  <div class="mvv-grid">
     <div class="mvv-card">
       <div class="mvv-icon green">&#9678;</div>
       <h3>Mission</h3>
@@ -219,7 +218,7 @@
       <p>We specialize in high-impact data analytics and consultation, leveraging Real-World Data, Electronic Health Records, and Clinical Trial Data to drive the future of medicine.</p>
     </div>
   </div>
-  <div class="values-row reveal">
+  <div class="values-row">
     <div class="value-item">
       <h4>Methodological Integrity</h4>
       <p>We never compromise on statistical validity &mdash; we apply the highest academic standards to commercial questions.</p>
@@ -237,11 +236,11 @@
 
 <section id="services">
   <div class="services">
-    <div class="section-tag reveal">What We Do</div>
-    <div class="section-title reveal">Prehistoric power meets<br>modern precision</div>
-    <div class="section-desc reveal">From clinical trial design to FDA-ready submissions, we provide end-to-end data science solutions for healthcare.</div>
+    <div class="section-tag">What We Do</div>
+    <div class="section-title">Prehistoric power meets<br>modern precision</div>
+    <div class="section-desc">From clinical trial design to FDA-ready submissions, we provide end-to-end data science solutions for healthcare.</div>
     <div class="services-grid">
-      <div class="service-card featured reveal">
+      <div class="service-card featured">
         <div class="service-num">01</div>
         <h3>Clinical Trials</h3>
         <div class="service-tagline">Where rigorous design meets rapid evolution</div>
@@ -250,7 +249,7 @@
           <span>Randomization &amp; Simulation</span><span>Interim Safety Monitoring</span><span>Submission-Ready TLFs</span>
         </div>
       </div>
-      <div class="service-card reveal">
+      <div class="service-card">
         <div class="service-num">02</div>
         <h3>Electronic Health Records</h3>
         <div class="service-tagline">From raw records to refined evidence</div>
@@ -258,7 +257,7 @@
           <span>EHR Extraction &amp; Cleaning</span><span>Cohort Building</span><span>Missing Data Handling</span><span>Multi-System Data Linkage</span>
         </div>
       </div>
-      <div class="service-card reveal">
+      <div class="service-card">
         <div class="service-num">03</div>
         <h3>Real-World Evidence</h3>
         <div class="service-tagline">No pickaxe or chisel required</div>
@@ -267,7 +266,7 @@
           <span>Comparative Effectiveness</span><span>Metabolomics Integration</span>
         </div>
       </div>
-      <div class="service-card reveal">
+      <div class="service-card">
         <div class="service-num">04</div>
         <h3>Data Science</h3>
         <div class="service-tagline">Modern methods with prehistoric power</div>
@@ -276,7 +275,7 @@
           <span>Interactive Dashboards</span><span>Custom Tools &amp; Apps</span>
         </div>
       </div>
-      <div class="service-card featured reveal">
+      <div class="service-card featured">
         <div class="service-num">05</div>
         <h3>Data Management &amp; FDA Reporting</h3>
         <div class="service-tagline">Rock-solid data foundations built to survive any regulatory meteor</div>
@@ -293,41 +292,41 @@
 
 <section class="team" id="team">
   <div style="max-width: 1200px; margin: 0 auto;">
-    <div class="section-tag reveal">Our Team</div>
-    <div class="section-title reveal">The minds behind<br>the methodology</div>
-    <div class="section-desc reveal">A team of Duke-trained biostatisticians and data scientists united by a passion for rigorous, impactful healthcare analytics.</div>
+    <div class="section-tag">Our Team</div>
+    <div class="section-title">The minds behind<br>the methodology</div>
+    <div class="section-desc">A team of Duke-trained biostatisticians and data scientists united by a passion for rigorous, impactful healthcare analytics.</div>
     <div class="team-grid">
-      <div class="team-card reveal">
+      <div class="team-card">
         <div class="team-avatar a1">B</div>
         <h3>Baoshan Zhang</h3>
         <div class="team-role">Manager &amp; Team Lead</div>
         <p>Biostatistics Ph.D. student at Duke. Expertise in non-parametric sequential design and composite endpoints. 2024 FDA-OCE-ASA Oncology Fellow and Statistical Fellow at DCRI.</p>
       </div>
-      <div class="team-card reveal">
+      <div class="team-card">
         <div class="team-avatar a2">H</div>
         <h3>Haruma Kurita</h3>
         <div class="team-role">Director of Biostatistics</div>
         <p>Master of Biostatistics candidate at Duke with a foundation in pharmaceutical science. Former Biologist II at AbbVie. Specializes in HEOR and Real-World Evidence.</p>
       </div>
-      <div class="team-card reveal">
+      <div class="team-card">
         <div class="team-avatar a3">A</div>
         <h3>Anand Panigrahy</h3>
         <div class="team-role">Director of Clinical Solutions</div>
         <p>Master of Biostatistics candidate at Duke with interests in clinical trials, survival analysis, and causal inference. Background in hospital research and statistical tool development.</p>
       </div>
-      <div class="team-card reveal">
+      <div class="team-card">
         <div class="team-avatar a4">W</div>
         <h3>Wanjing</h3>
         <div class="team-role">Director of Corporate Strategy</div>
         <p>Master of Biostatistics candidate at Duke with a foundation in statistics and psychology. Expertise in quantitative research, data science, and biomedical analysis.</p>
       </div>
-      <div class="team-card reveal">
+      <div class="team-card">
         <div class="team-avatar a5">J</div>
         <h3>Jack Guan</h3>
         <div class="team-role">Director of Personnel</div>
         <p>Master of Biostatistics candidate at Duke with a foundation in neuroscience from NYU. Applies biological systems knowledge to statistical methodology and data analysis.</p>
       </div>
-      <div class="team-card reveal">
+      <div class="team-card">
         <div class="team-avatar a6">K</div>
         <h3>Kylin Sun</h3>
         <div class="team-role">Director of Data Science &amp; Recruitment</div>
@@ -339,11 +338,11 @@
 
 <section id="careers">
   <div class="careers">
-    <div class="section-tag reveal">Join the Herd</div>
-    <div class="section-title reveal">Open Positions</div>
-    <div class="section-desc reveal">Help us make clinical trial inefficiencies extinct. We celebrate diversity and are committed to an inclusive environment.</div>
+    <div class="section-tag">Join the Herd</div>
+    <div class="section-title">Open Positions</div>
+    <div class="section-desc">Help us make clinical trial inefficiencies extinct. We celebrate diversity and are committed to an inclusive environment.</div>
 
-    <div class="job-card reveal">
+    <div class="job-card">
       <div class="job-header">
         <div>
           <h3>Senior Data Scientist</h3>
@@ -375,10 +374,10 @@
           <li>Experience with machine learning and healthcare data</li>
         </ul>
       </div>
-      <a href="mailto:baoshan.zhang@duke.edu?subject=Application%3A%20Senior%20Data%20Scientist" class="btn-primary" style="margin-top: 8px;">Apply Now &rarr;</a>
+      <a href="/cdn-cgi/l/email-protection#d6b4b7b9a5beb7b8f8acbeb7b8b196b2a3bdb3f8b3b2a3e9a5a3b4bcb3b5a2eb97a6a6babfb5b7a2bfb9b8f3e597f3e4e685b3b8bfb9a4f3e4e692b7a2b7f3e4e685b5bfb3b8a2bfa5a2" class="btn-primary" style="margin-top: 8px;">Apply Now &rarr;</a>
     </div>
 
-    <div class="job-card reveal">
+    <div class="job-card">
       <div class="job-header">
         <div>
           <h3>Senior Biostatistician</h3>
@@ -411,20 +410,20 @@
           <li>Strong understanding of CDISC standards (SDTM/ADaM) and FDA/EMA requirements</li>
         </ul>
       </div>
-      <a href="mailto:baoshan.zhang@duke.edu?subject=Application%3A%20Senior%20Biostatistician" class="btn-primary" style="margin-top: 8px;">Apply Now &rarr;</a>
+      <a href="/cdn-cgi/l/email-protection#c7a5a6a8b4afa6a9e9bdafa6a9a087a3b2aca2e9a2a3b2f8b4b2a5ada2a4b3fa86b7b7abaea4a6b3aea8a9e2f486e2f5f794a2a9aea8b5e2f5f785aea8b4b3a6b3aeb4b3aea4aea6a9" class="btn-primary" style="margin-top: 8px;">Apply Now &rarr;</a>
     </div>
   </div>
 </section>
 
 <section class="contact" id="contact">
-  <div class="section-tag reveal">Get in Touch</div>
-  <div class="section-title reveal">Ready to evolve your<br>data strategy?</div>
-  <div class="section-desc reveal" style="margin: 16px auto 0;">Let's unearth insights together.</div>
-  <div class="contact-grid reveal">
+  <div class="section-tag">Get in Touch</div>
+  <div class="section-title">Ready to evolve your<br>data strategy?</div>
+  <div class="section-desc" style="margin: 16px auto 0;">Let's unearth insights together.</div>
+  <div class="contact-grid">
     <div class="contact-item">
       <div class="contact-icon">&#9993;</div>
       <h4>Email</h4>
-      <p><a href="mailto:baoshan.zhang@duke.edu" style="color: var(--accent-green); text-decoration: none;">baoshan.zhang@duke.edu</a></p>
+      <p><a href="/cdn-cgi/l/email-protection#b3d1d2dcc0dbd2dd9dc9dbd2ddd4f3d7c6d8d69dd6d7c6" style="color: var(--accent-green); text-decoration: none;"><span class="__cf_email__" data-cfemail="57353638243f3639792d3f3639301733223c3279323322">[email&#160;protected]</span></a></p>
     </div>
     <div class="contact-item">
       <div class="contact-icon">&#9742;</div>
@@ -445,19 +444,6 @@
   <div class="footer-text">&copy; 2025 DINOMight Healthcare. All rights reserved.</div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   document.getElementById('navToggle').addEventListener('click', function() {
-    var links = document.querySelector('.nav-links');
-    links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
-  });
-
-  function revealAll() {
-    var els = document.querySelectorAll('.reveal');
-    for (var i = 0; i < els.length; i++) {
-      els[i].classList.add('visible');
-    }
-  }
-
-  if ('IntersectionObserver' in window) {
-    var observer = new IntersectionObserver(function(entries) {
-      for (var i = 0; i < entries.length; i++) {
+    var links = document
